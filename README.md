@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Container log frontend
+<img src="./container-logger.gif" width="800px" height="500px" title="container-logger"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check for backend
+https://github.com/KimJeongChul/container-log-backend
 
 ## Available Scripts
 
