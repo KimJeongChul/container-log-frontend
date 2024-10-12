@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+aside {
+  background-color: RGBA(229,242,252,1);
+  color: #ffffff;
+}
+
+aside h2 {
+  color: #ffffff; /* 사이드바 제목 색상 */
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+aside li:hover {
+  background-color: #444;
+}
+
+main {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 20px;
+  flex: 1;
+}
+
+pre {
+  background-color: #2c2c2c;
+  border: 1px solid #444;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.blinking-cursor {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 0, 0, 0.8);
+  animation: blink 1s infinite;
+  left: 10px;
+  margin-left: 10px;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
